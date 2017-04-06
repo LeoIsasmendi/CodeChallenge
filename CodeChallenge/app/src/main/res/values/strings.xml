@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CodeChallenge</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="detail_item_first_name">First Name</string>
+    <string name="detail_item_last_name">Last Name</string>
+    <string name="detail_item_birth_date">Birth date</string>
+    <string name="detail_item_phone_home">Phone number</string>
+    <string name="detail_item_phone_cellphone">Cellphone</string>
+    <string name="detail_item_phone_office">Phone office</string>
+    <string name="detail_item_address">Address</string>
+    <string name="default_text">--</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="fetching_error">Error fetching data</string>
+</resources>

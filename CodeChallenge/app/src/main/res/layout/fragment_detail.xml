@@ -1,0 +1,134 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="vertical"
+        tools:context="android.example.com.codechallenge.ui.DetailFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/detail_item_photo"
+                android:layout_width="@dimen/item_photo"
+                android:layout_height="@dimen/item_photo"
+                android:src="@drawable/ic_default_photo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/text_margin"
+                android:layout_marginStart="@dimen/text_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_item_first_name" />
+
+                <TextView
+                    android:id="@+id/detail_item_first_name"
+                    style="@style/AppTheme.TextData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_item_first_name" />
+
+                <TextView
+                    style="@style/AppTheme.TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_item_last_name" />
+
+                <TextView
+                    android:id="@+id/detail_item_last_name"
+                    style="@style/AppTheme.TextData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_item_last_name" />
+
+                <TextView
+                    style="@style/AppTheme.TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_item_birth_date" />
+
+                <TextView
+                    android:id="@+id/detail_item_birth_date"
+                    style="@style/AppTheme.TextData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_item_birth_date" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AppTheme.TextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_phone_home" />
+
+            <TextView
+                android:id="@+id/detail_item_phone_home"
+                style="@style/AppTheme.TextData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_phone_home" />
+
+            <TextView
+                style="@style/AppTheme.TextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_phone_cellphone" />
+
+            <TextView
+                android:id="@+id/detail_item_cellphone"
+                style="@style/AppTheme.TextData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_phone_cellphone" />
+
+            <TextView
+                style="@style/AppTheme.TextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_phone_office" />
+
+            <TextView
+                android:id="@+id/detail_item_phone_office"
+                style="@style/AppTheme.TextData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_phone_office" />
+
+            <TextView
+                style="@style/AppTheme.TextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_address" />
+
+            <TextView
+                android:id="@+id/detail_item_address"
+                style="@style/AppTheme.TextData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_address" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
