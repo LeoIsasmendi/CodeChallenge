@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/fragment_detail_margin"
+    android:orientation="vertical"
+    tools:context="android.example.com.codechallenge.ui.DetailFragment">
+
+    <TextView
+        style="@style/AppTheme.detailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_name" />
+
+    <TextView
+        android:id="@+id/pet_name"
+        style="@style/AppTheme.detailData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Pichichu" />
+
+    <TextView
+        style="@style/AppTheme.detailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_category" />
+
+    <TextView
+        android:id="@+id/pet_category"
+        style="@style/AppTheme.detailData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Marca perro" />
+
+</LinearLayout>
