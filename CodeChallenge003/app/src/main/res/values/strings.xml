@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CodeChallenge003</string>
+    <string name="detail_cast_title">Cast List</string>
+    <string name="fetching_error">Error fetching data from Internet</string>
+</resources>
